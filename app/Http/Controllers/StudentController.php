@@ -2,20 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Batiment;
+use App\Models\Student;
 use Illuminate\Http\Request;
 
-class BatimentController extends Controller
+class StudentController extends Controller
 {
-        /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function hello()
-    {
-        return view ("welcome");
-    }
     /**
      * Display a listing of the resource.
      *
@@ -23,8 +14,7 @@ class BatimentController extends Controller
      */
     public function index()
     {
-        $DBBatiment = Batiment::all();
-        return view ("pages.batiment", compact ('DBBatiment'));
+        //
     }
 
     /**
@@ -51,10 +41,10 @@ class BatimentController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Batiment  $batiment
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function show(Batiment $batiment)
+    public function show(Student $student)
     {
         //
     }
@@ -62,10 +52,10 @@ class BatimentController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Batiment  $batiment
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function edit(Batiment $batiment)
+    public function edit(Student $student)
     {
         //
     }
@@ -74,10 +64,10 @@ class BatimentController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Batiment  $batiment
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Batiment $batiment)
+    public function update(Request $request, Student $student)
     {
         //
     }
@@ -85,10 +75,10 @@ class BatimentController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Batiment  $batiment
+     * @param  \App\Models\Student  $student
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Batiment $batiment)
+    public function destroy(Student $student)
     {
         //
     }

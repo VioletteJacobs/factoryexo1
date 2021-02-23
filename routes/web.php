@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\BatimentController;
+use App\Http\Controllers\FormationController;
+use App\Http\Controllers\TypeFormationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [BatimentController::class, 'hello']);
+Route::get('/batiment', [BatimentController::class, 'index']);
+Route::get('/formation', [FormationController::class, 'index']);
+Route::get('/typeformation', [TypeFormationController::class, 'index']);

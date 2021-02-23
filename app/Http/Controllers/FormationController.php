@@ -14,7 +14,8 @@ class FormationController extends Controller
      */
     public function index()
     {
-        //
+        $DBFormation= Formation::all();
+        return view ("pages.formation", compact ("DBFormation"));
     }
 
     /**

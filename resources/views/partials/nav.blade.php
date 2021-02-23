@@ -10,7 +10,13 @@
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="/batiment">Batiments</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/formation">Formations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/typeformation">Type de formations</a>
         </li>
 
       </ul>
