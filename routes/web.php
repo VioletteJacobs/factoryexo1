@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\BatimentController;
 use App\Http\Controllers\FormationController;
+use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TypeFormationController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ Route::get('/', [BatimentController::class, 'hello']);
 Route::get('/batiment', [BatimentController::class, 'index']);
 Route::get('/formation', [FormationController::class, 'index']);
 Route::get('/typeformation', [TypeFormationController::class, 'index']);
+Route::get('/student', [StudentController::class, 'index']);

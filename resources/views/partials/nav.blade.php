@@ -18,6 +18,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/typeformation">Type de formations</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/student">etudiantes</a>
+        </li>
 
       </ul>
 

@@ -1,4 +1,4 @@
 @extends('template.main')
 @section('content')
-    <h1>Bienvenue à MolenGeek! </h1>
+    <h1 class="text-center">Bienvenue à MolenGeek! </h1>
 @endsection
